@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#main-layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url('./weather5.jpg');
+  background-size: 100% 110%;
+}
+#main-layout-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+/************ SIGNOUT & HOME ************/
+.signout {
+  font-size: 25px;
+  max-width: 450px;
+  min-width: 450px;
+  min-height: 100px;
+  line-height: 100px;
+  border-radius: 3px;
+  margin: auto;
+  text-align: center;
+  color: rgba(3, 79, 132, 1);
+  background: rgba(255, 255, 255, .7);
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, .7);
+}
+.home {
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}

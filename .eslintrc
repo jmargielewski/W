@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "no-unused-vars": 0,
+    "max-len": [1, 130, 2, {"ignoreComments": true}]
+  },
+  "extends": ["airbnb-base"],
+  "globals": {
+    "window": true,
+    "localStorage": true
+  }
+}
