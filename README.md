@@ -2,7 +2,7 @@
 
 ### Getting Started
 
-1. add API_KEY src -> actions -> index.js -> linia 23
+1. add API_KEY src -> actions -> index.js -> line 23
 
 2. run command npm install in order to install all dependencies.
 
